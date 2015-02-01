@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/activity_main_dialog_searchclassification_top_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/activity_main_dialog_searchclassification_back_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_main_dialog_back_bt"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/activity_main_dialog_searchclassification_hotspot_tv"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="键入框"
+            android:gravity="center"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/activity_main_dialog_searchclassification_center_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_main_dialog_searchclassification_top_rl"
+        >
+
+        <GridView
+            android:id="@+id/activity_main_dialog_searchclassification_gv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:numColumns="auto_fit"
+            android:verticalSpacing="10dp"
+            android:horizontalSpacing="10dp"
+            android:columnWidth="90dp"
+            android:stretchMode="columnWidth"
+            android:gravity="center" />
+    </RelativeLayout>
+</RelativeLayout>

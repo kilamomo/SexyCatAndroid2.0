@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/activity_gooddetails_top_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/activity_gooddetails_back_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:layout_alignParentLeft="true" />
+
+
+        <TextView
+            android:id="@+id/activity_gooddetails_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_main_title_tv"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/activity_gooddetails_center_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_gooddetails_top_rl"
+        android:layout_above="@+id/activity_gooddetails_foot_rl"
+        >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/activity_gooddetails_ad_vp"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:background="#000000"
+            android:flipInterval="30"
+            android:persistentDrawingCache="animation" />
+
+        <RelativeLayout
+            android:id="@+id/activity_gooddetails_collectionshare_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activity_gooddetails_ad_vp">
+
+            <Button
+                android:id="@+id/activity_gooddetails_share_rl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="分享" />
+
+            <Button
+                android:id="@+id/activity_gooddetails_collection_rl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/activity_gooddetails_share_rl"
+                android:text="收藏" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/activity_gooddetails_products_lv"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_below="@id/activity_gooddetails_collectionshare_rl" />
+         <TextView
+             android:id="@+id/activity_gooddetails_introduction_tv"
+             android:layout_width="fill_parent"
+             android:layout_height="30dp"
+             android:text="商品简介"
+             android:layout_below="@+id/activity_gooddetails_products_lv"
+             />
+        <ListView
+            android:id="@+id/activity_gooddetails_recommend_lv"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_below="@id/activity_gooddetails_introduction_tv" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_gooddetails_foot_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/activity_main_information_tv"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="嗨" />
+        <TextView
+            android:id="@+id/activity_main_socialContact_tv"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="评论" />
+        <TextView
+            android:id="@+id/activity_main_person_tv"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="去购买" />
+    </LinearLayout>
+</RelativeLayout>

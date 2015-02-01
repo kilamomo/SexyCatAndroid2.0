@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#2d7bc7</color>
+    <color name="darkgrey">#f4f4f4</color>
+    <color name="darkgreyline">#ebebeb</color>
+    <color name="Translucent">#00000000</color>
+    <color name="HalfTranslucent">#89000000</color>
+    <color name="introduction">#E26D76</color>
+    <color name="okls">#B1CF88</color>
+    <color name="travel">#A96DA8</color>
+    <color name="center">#F29B56</color>
+    <color name="agriculture">#7EBFF9</color>
+    <color name="carpark">#E26D76</color>
+    <color name="park">#FC7DBD</color>
+    <color name="music">#7EBFF9</color>
+    <color name="menutext">#313131</color>
+    <color name="alltitlebg">#2EA1B6</color>
+    <color name="textColor">#313131</color>
+    <color name="fengge">#ebebeb</color>
+    <color name="baihuise">#F4F4F4</color>
+    <color name="popshenlv">#2ea1b6</color>
+    <color name="popqianlv">#e7f1f3</color>
+    <color name="b1colors">#e26d76</color>
+    <color name="f1colors">#7ebff9</color>
+    <color name="f2colors">#f29b59</color>
+    <color name="f3colors">#a96ea8</color>
+    <color name="wccolors">#49C9B2</color>
+    <color name="ftcolors">#2DCC70</color>
+    <color name="ztcolors">#F49C14</color>
+    <color name="musicwccolors">#F18777</color>
+    <color name="musictcccolors">#1B9BCA</color>
+    <color name="musicspccolors">#FFC351</color>
+    <color name="musicajccolors">#7280C7</color>
+    <color name="musictszxcolors">#34C0A5</color>
+    <color name="musicrtzxcolors">#FA696E</color>
+    <color name="musicgcwtcolors">#674D58</color>
+    <color name="musiccjrfwcolors">#10838A</color>
+    <color name="musicbnzxcolors">#665D9E</color>
+    <color name="musiccrkcolors">#2C9783</color>
+    <color name="musiclyqcolors">#91502A</color>
+    <color name="musicqnwtcolors">#7F5338</color>
+    <color name="musiccyqcolors">#FF8040</color>
+    <color name="campingwccolors">#49C9B2</color>
+
+</resources>

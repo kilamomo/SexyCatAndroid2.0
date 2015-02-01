@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SexyCatAndroid2.0</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_main_menu_bt">分类</string>
+    <string name="activity_main_title_tv">小野猫</string>
+    <string name="activity_main_dialog_back_bt">返回</string>
+    <string name="activity_classificationdetailslist_back_bt">返回</string>
+</resources>

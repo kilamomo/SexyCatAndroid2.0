@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_register_bg">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        >
+
+        <RelativeLayout
+            android:id="@+id/activity_register_photo_out_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/activity_register_defaulticon_out"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/activity_register_photo_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/activity_register_defaulticon"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/activity_register_name_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/activity_register_ed_bg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_below="@id/activity_register_photo_out_rl">
+
+            <ImageView
+                android:id="@+id/activity_register_name_icon_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/activity_register_nameicon" />
+
+            <ImageView
+                android:id="@+id/activity_register_name_line_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignBottom="@id/activity_register_name_icon_iv"
+                android:layout_alignTop="@id/activity_register_name_icon_iv"
+                android:layout_toRightOf="@id/activity_register_name_icon_iv"
+                android:background="@drawable/activity_register_name_line" />
+
+            <EditText
+                android:id="@+id/activity_register_name_et"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/activity_register_name_line_iv"
+                android:hint="小野猫"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:singleLine="true"
+                android:textCursorDrawable="@null"
+                android:textColorHint="@color/white"
+                android:background="@color/Translucent" />
+
+            <ImageView
+                android:id="@+id/activity_register_name_cancel_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/activity_register_name_et"
+                android:background="@drawable/activity_register_cancel" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/activity_register_enter_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/activity_register_enter_rl_selector"
+            android:layout_below="@id/activity_register_name_rl"
+            android:layout_alignLeft="@id/activity_register_name_rl"
+            android:layout_alignRight="@id/activity_register_name_rl"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="进入"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:textColor="@color/f3colors"
+                android:layout_centerInParent="true"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/activity_register_skip_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/activity_register_skip_rl_selector"
+            android:layout_below="@id/activity_register_enter_rl"
+            android:layout_alignLeft="@id/activity_register_name_rl"
+            android:layout_alignRight="@id/activity_register_name_rl"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="跳过"
+                android:textSize="16dp"
+                android:gravity="center"
+                android:textColor="@color/f3colors"
+                android:layout_centerInParent="true"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
